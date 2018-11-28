@@ -1,0 +1,66 @@
+/* ---- GLOBALS ---- */
+
+a {
+  text-decoration: none;
+  color: inherit;
+  }
+
+ul {
+  list-style: none;
+}
+
+/* ---- HEADER ---- */
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+  color: #38b638;
+  background-color: #414040;
+  padding: 10px 0 10px 0;
+}
+
+.head-left {
+  /* border: solid red 1px; */
+  margin-left: 50px;
+}
+          
+.head-right {
+  display: flex;
+  flex-wrap: wrap;
+  /* border: solid red 1px; */
+  margin-right: 50px;
+}
+
+.head-phone {
+  /* border: solid red 1px; */
+  margin-right: 30px;
+}
+
+.head-social-icons {
+  /* border: solid red 1px; */
+}
+
+/* ---- NAVBAR ---- */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 13px 0 13px 0;
+  border: solid red 1px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  margin-left: 18px;
+}
+
+
+/* ---- CAROUSEL ---- */
