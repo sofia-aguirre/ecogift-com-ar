@@ -1,5 +1,9 @@
 /* ---- GLOBALS ---- */
 
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -50,7 +54,7 @@ nav {
   align-items: center;
   justify-content: space-around;
   padding: 13px 0 13px 0;
-  border: solid red 1px;
+  /* border: solid red 1px; */
 }
 
 nav ul {
@@ -64,3 +68,72 @@ nav ul li {
 
 
 /* ---- CAROUSEL ---- */
+
+#carousel {
+  min-height: 200px;
+  max-height: 400px;
+  background-color: gray;
+  text-align: center;
+}
+
+#carousel p {
+  margin: 0;
+}
+
+/* ---- MAIN CONTAINER ---- */
+
+#main-container {
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: flex-start;
+  /* justify-content: space-around; */
+}
+
+/* ---- ASIDE CATEGORY LINKS ---- */
+
+aside {
+  width: 20%;
+  margin: 10px 30px 10px 30px;
+}
+
+aside h3 {
+  font-weight: bold;
+}
+
+aside ul {
+  margin: 0;
+  padding: 0;
+}
+
+aside li {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin-bottom: 10px;
+}
+
+/* ---- MAIN & FEATURED PRODUCT THUMBNAILS ---- */
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: purple 1px solid;
+  width: 80%
+}
+
+.item {
+  width: 32%;
+  max-height: 350px;
+  border: 1px red solid;
+  
+}
+
+.item-thumb {
+  background-image: url('../assets/JGI.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 250px;
+}
