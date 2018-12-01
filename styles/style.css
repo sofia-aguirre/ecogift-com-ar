@@ -95,16 +95,14 @@ nav img {
 
 /* ---- CAROUSEL ---- */
 
-#carousel {
-  min-height: 200px;
+.carousel-item {
+  width:100%;
   max-height: 400px;
-  background-color: gray;
-  text-align: center;
 }
 
-#carousel p {
-  margin: 0;
-}
+.carousel-item img {
+
+  }
 
 /* ---- MAIN CONTAINER ---- */
 
