@@ -169,14 +169,17 @@ main p {
 /* ---- MAP ---- */
 #map {
   width: 100%;
-  height: 200px;
-  background-color: #3e743e;
-  text-align: center;
+  height: 350px;
+  background-image: url('../assets/ecogift-mapa.png');
+  background-size: contain;
+  background-repeat: no-repeat;
   margin: 0 0 10px 0;
 }
 
-#map p {
-  margin: 0;
+#map img {
+  width: 30%;
+  height: auto;
+  margin: 4.5% 0 0 5%;
 }
 
 /* ---- INSTAGRAM FEED ---- */
