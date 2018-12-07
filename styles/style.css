@@ -183,7 +183,7 @@ main p {
 }
 
 /* ---- INSTAGRAM FEED ---- */
-#insta-feed {
+#instafeed {
   width: 100%;
   height: 200px;
   background-color: #723e74;
@@ -191,8 +191,9 @@ main p {
   margin: 0 0 10px 0;
 }
 
-#insta-feed p {
-  margin: 0;
+#instafeed img {
+  width: 100%;
+  height: 200px;
 }
 
 /* ---- FOOTER ---- */
